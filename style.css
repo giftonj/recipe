@@ -1,0 +1,60 @@
+#searchboxk{
+    font-family: verdana;
+    align-items: center;
+    padding: 4px;
+}
+#search{
+    font-family: verdana;
+    padding: 4px;
+    background-color: rgb(190, 228, 228);
+    cursor: pointer;
+}
+body{
+    font-family: Verdana;
+    background-color: rgb(148, 193, 213);
+    padding: 10px;
+    height: 20vh;
+}
+.content{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+}
+image{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    padding: 10px;
+}
+.animate-img {
+    animation: slide-right 5s ease-in-out infinite;
+}
+.animate-img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+@keyframes slide-right {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
+#myH1{
+    font-family: verdana;
+    font-size: 2em;
+}
+#myBtn{
+    padding: 4px;
+}
+.paragraph{
+    font-family: verdana;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
